@@ -179,7 +179,19 @@
   html {
     font-size: 40%;
   }
-
+  .hero-section,
+  .shop-hero {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .primary-heading {
+    font-size: 5.2rem;
+  }
+  .primary-heading,
+  .primary-heading span {
+    color: var(--color-white);
+  }
   .grid-col-2,
   .grid-col-3 {
     grid-template-columns: 1fr;
@@ -189,8 +201,8 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .hero-content {
-    top: 50%;
-    transform: translate(0, 50%);
+    top: 80%;
+    transform: translate(0, 80%);
   }
 
   .d-headiing {
