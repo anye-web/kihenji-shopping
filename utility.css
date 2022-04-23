@@ -234,7 +234,7 @@
     transition: all 0.3s ease-out;
     z-index: 1;
 
-    transform: translateX(100%);
+    transform: translateX(-100%);
     opacity: 0;
     visibility: hidden;
   }
@@ -268,13 +268,5 @@
   }
   .open-nav .close {
     display: block;
-  }
-}
-
-/** AT BREAK POINT (470) */
-
-@media (max-width: 30em) {
-  .primary-heading {
-    font-size: 4rem;
   }
 }
