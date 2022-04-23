@@ -179,6 +179,7 @@
   html {
     font-size: 40%;
   }
+
   .grid-col-2,
   .grid-col-3 {
     grid-template-columns: 1fr;
@@ -188,12 +189,8 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .hero-content {
-    top: 30%;
-    transform: translate(0, 30%);
-  }
-
-  .primary-heading {
-    font-size: 5.2rem;
+    top: 50%;
+    transform: translate(0, 50%);
   }
 
   .d-headiing {
