@@ -121,14 +121,13 @@
 }
 @keyframes animateCirle {
   0% {
-    transform: scale(0.95) translateY(-1rem);
-
-    opacity: 1;
+    transform: translateY(-1rem);
+    opacity: 0.78;
   }
 
   100% {
-    transform: scale(1.5) translateY(1rem);
-    opacity: 0;
+    transform: translateY(1rem);
+    opacity: 1;
   }
 }
 /** MARGINS && PADDINGS */

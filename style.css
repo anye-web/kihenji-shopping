@@ -35,6 +35,19 @@ body {
   font-size: var(--text-font);
   color: var(--color-dark);
   line-height: 1.8;
+  position: relative;
+}
+
+/** FLOATING BUTTON */
+.floating {
+  z-index: 1;
+  position: fixed;
+  top: 500px;
+  left: 50%;
+}
+
+.floating .btn {
+  box-shadow: 0 6rem 7rem rgba(0, 0, 0, 0.1);
 }
 
 h1,
